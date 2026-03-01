@@ -1,5 +1,17 @@
 <div align="center">
   
+  ```mermaid
+  graph LR  
+      Lnk[Link] --> Inter[Internet] --> Trans[Transport] --> App[Application]
+    
+      %% Styling
+      classDef default fill:#f4f4f4,stroke:#333,stroke-width:1px,color:#4a7ebb,font-weight:bold,font-size:20px;
+      classDef highlighted fill:#4a7ebb,stroke:#2a5e9b,stroke-width:1px,color:#fff,font-weight:bold,font-size:20px;
+  
+      class App,Inter,Lnk default;
+      class Trans highlighted;
+  ```
+  
 # **`Awesome`** [UDP](https://wikipedia.org/wiki/User_Datagram_Protocol) Protocol [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 </div>
 
