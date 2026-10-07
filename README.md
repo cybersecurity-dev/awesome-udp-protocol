@@ -87,6 +87,7 @@ graph LR
     class Trans highlighted;
 ```
 ## 📖 Contents
+- [UDP Libraries](#udp-libraries)
 - [My Other Awesome Lists](#my-other-awesome-lists)
 - [Contributing](#contributing)
 - [Contributors](#contributors)
@@ -111,7 +112,9 @@ Server-->>Client: UDP Response
 Note over Client,Server: No ACK required
 ```
 
-##
+## UDP Libraries
+
+- [Handshaked UDP](https://github.com/kewl-ua/handshaked_udp) - C library for bidirectional UDP sessions between a client behind CGNAT and a public server, with keep-alives, connection migration and automatic reconnection.
 
 ### My Other Awesome Lists
 You can access the my other awesome lists [here](https://cyberthreatdefence.com/my_awesome_lists)
